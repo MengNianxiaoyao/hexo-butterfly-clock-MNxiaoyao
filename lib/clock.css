@@ -1,13 +1,13 @@
 @font-face {
     font-family: UnidreamLED;
-    src: url(./fonts/UnidreamLED.ttf);
+    src: url(/fonts/UnidreamLED.ttf);
     font-display: swap;
 }
 @font-face {
   font-family: "qweather-icons";
-  src: url("./fonts/qweather-icons.woff2") format("woff2"),
-url("./fonts/qweather-icons.woff") format("woff"),
-url("./fonts/qweather-icons.ttf") format("truetype");
+  src: url("/fonts/qweather-icons.woff2") format("woff2"),
+url("/fonts/qweather-icons.woff") format("woff"),
+url("/fonts/qweather-icons.ttf") format("truetype");
 }
 
 span.card-clock-weather,
