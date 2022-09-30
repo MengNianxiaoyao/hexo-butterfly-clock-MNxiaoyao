@@ -13,7 +13,7 @@
 2. 安装插件,在博客根目录`[Blogroot]`下打开终端，运行以下指令：
 
    ```bash
-    npm install hexo-butterfly-clock-anzhiyu --save
+    npm install hexo-butterfly-clock-mnxiaoyao --save
    ```
 
 3. 添加配置信息，以下为写法示例
@@ -33,9 +33,9 @@
           type: class
           name: sticky_layout
           index: 0
-        loading: https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/loading.gif #加载动画自定义
-        clock_css: https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/clock.min.css
-        clock_js: https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/clock.js
+        loading: https://cdn.cbd.int/hexo-butterfly-clock-mnxiaoyao/lib/loading.gif #加载动画自定义
+        clock_css: https://cdn.cbd.int/hexo-butterfly-clock-mnxiaoyao/lib/clock.min.css
+        clock_js: https://cdn.cbd.int/hexo-butterfly-clock-mnxiaoyao/lib/clock.js
         ip_api: https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0
         qweather_key:  # 和风天气key
         gaud_map_key:  # 高得地图web服务key
@@ -43,7 +43,7 @@
         rectangle: 112.6534116,27.96920845 # 获取访问者位置失败时会显示该位置的天气，同时该位置为开启default_rectangle后的位置
    ```
 
-   其中`qweather_key`和`gaud_map_key`最好自己去申请对应的api key，默认使用我自己的，可能会被限制，不保证可靠性
+   其中`qweather_key`和`gaud_map_key`最好自己去申请对应的api key，默认不使用
 
     `qweather_key`申请地址: https://id.qweather.com/#/login
     1. 登录后进入控制台
