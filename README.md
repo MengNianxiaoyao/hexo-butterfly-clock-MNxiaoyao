@@ -1,6 +1,6 @@
 # hexo-butterfly-clock
 
-给`hexo-theme-butterfly`添加 [侧边栏电子钟](https://anzhiy.cn/posts/fc18.html)
+给`hexo-theme-butterfly`添加 [侧边栏电子钟](https://www.lwtxiaoyao.top/posts/249d0b8b.html)
 
 # 安装
 
@@ -21,7 +21,7 @@
 
    ```yml
       # electric_clock
-      # see https://anzhiy.cn/posts/fc18.html
+      # see https://www.lwtxiaoyao.top/posts/249d0b8b.html
       electric_clock:
         enable: true # 开关
         priority: 5 #过滤器优先权
@@ -33,9 +33,9 @@
           type: class
           name: sticky_layout
           index: 0
-        loading: https://cdn.cbd.int/hexo-butterfly-clock-mnxiaoyao/lib/loading.gif #加载动画自定义
-        clock_css: https://cdn.cbd.int/hexo-butterfly-clock-mnxiaoyao/lib/clock.min.css
-        clock_js: https://cdn.cbd.int/hexo-butterfly-clock-mnxiaoyao/lib/clock.js
+        loading: https://unpkg.com/hexo-butterfly-clock-mnxiaoyao/lib/loading.gif #加载动画自定义
+        clock_css: https://unpkg.com/hexo-butterfly-clock-mnxiaoyao/lib/clock.min.css
+        clock_js: https://unpkg.com/hexo-butterfly-clock-mnxiaoyao/lib/clock.min.js
         ip_api: https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0
         qweather_key:  # 和风天气key
         gaud_map_key:  # 高得地图web服务key
@@ -43,7 +43,7 @@
         rectangle: 112.6534116,27.96920845 # 获取访问者位置失败时会显示该位置的天气，同时该位置为开启default_rectangle后的位置
    ```
 
-   其中`qweather_key`和`gaud_map_key`最好自己去申请对应的api key，默认不使用
+   其中`qweather_key`和`gaud_map_key`需要自己去申请对应的api key，默认无api key，无法使用对应api
 
     `qweather_key`申请地址: https://id.qweather.com/#/login
     1. 登录后进入控制台
