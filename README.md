@@ -1,6 +1,6 @@
 # hexo-butterfly-clock
 
-给`hexo-theme-butterfly`添加 [侧边栏电子钟](https://www.lwtxiaoyao.top/posts/249d0b8b.html)
+给`hexo-theme-butterfly`添加 [侧边栏电子钟](https://blog.lwtxiaoyao.top/posts/249d0b8b.html)
 
 # 安装
 
